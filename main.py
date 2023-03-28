@@ -7,7 +7,7 @@ letra_minuscula = chr(random.randint(97, 122))
 char_especial = chr(random.randint(33, 64))
 lista_de_numeros = []
 
-for i in range(5): #até 8 digitos
+for i in range(5): #até 10 digitos
   numeros = random.randrange(9)
   lista_de_numeros.append(numeros) 
 random.shuffle(lista_de_numeros)
